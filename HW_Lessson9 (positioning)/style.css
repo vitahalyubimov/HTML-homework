@@ -1,0 +1,76 @@
+﻿body
+{
+	background-image: url("Images/bckg.jpg");
+}
+div
+{
+	text-align:center;
+	position: relative;
+}
+#img2
+{
+	left: -188px;
+	margin: 5px;
+}
+#img3
+{
+	top: -273px;
+	left: 380px;
+}
+#img4
+{
+	top: -265px;
+	left: -382px;
+}
+#img5
+{
+	top: -772px;
+	left: 188px;
+}
+#img6
+{
+	top: -760px;
+}
+#img7
+{
+	top: -750px;
+}
+#img8
+{
+	top: -740px;
+	left: -187px;
+}
+#img9
+{
+	top: -1332px;
+	left: 383px;
+}
+#img10
+{
+	top: -1325px;
+}
+#img11
+{
+	top: -1315px;
+	left: -282px;
+}
+#img12
+{
+	top: -1679px;
+	left: 290px;
+}
+#img13
+{
+	top: -1670px;
+	left: -381px;
+}
+#img14
+{
+	top: -2158px;
+	left: 190px;
+}
+#img15
+{
+	top: -2150px;
+	left: 1px;
+}

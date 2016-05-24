@@ -1,0 +1,31 @@
+﻿body{
+	background-color: #4e6379;
+}
+div{
+	display: inline-block;
+}
+#table{
+	display: table;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: white;
+	margin: 0 auto;
+}
+#tr{
+	display: table-row;
+}
+.td{
+	display: table-cell;
+	width: 200px;
+	height: 140px;
+	text-align: center;
+	border-right: 1px solid lightgray;
+}
+.button_link{
+	background: #f53514;
+	color: white;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+}
