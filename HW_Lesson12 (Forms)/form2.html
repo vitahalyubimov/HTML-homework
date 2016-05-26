@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="utf-8"/>
+		<title>Forms</title>
+		<style>
+			p{
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<h3>Профиль</h3>
+			<p>Ваш пол:</p>
+			<input type="radio" name="male">Мужской
+			<input type="radio" name="male" checked>Женский
+			<p>Месяц и год рождения:</p>
+			<!--Второй вариант выбора даты если вы имели ввиду использовать через type, тогда не получится два раздельных поля как на картинке-->
+			<!--<input type="month" name="month" style="margin-bottom: 10px;"><br/>-->
+			<select name="month">
+				<option value="January">Январь</option>
+				<option value="February">Февраль</option>
+				<option value="Mart">Март</option>
+				<option value="April">Апрель</option>
+				<option value="May">Май</option>
+				<option value="June">Июнь</option>
+				<option value="July">Июль</option>
+				<option value="August">Август</option>
+				<option value="September">Сентябрь</option>
+				<option value="October">Октябрь</option>
+				<option value="November">Ноябрь</option>
+				<option value="December">Декабрь</option>
+			</select>
+			<select name="year" style="margin-bottom: 10px;">
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+				<option value="1994">1994</option>
+				<option value="1995">1995</option>
+				<option value="1996">1996</option>
+				<option value="1997">1997</option>
+				<option value="1998">1998</option>
+				<option value="1999">1999</option>
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+			</select>
+			<p>Знакомые технологии:</p>
+			<select name="tehnology" multiple style="margin-top: 10px;">
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="JavaScript" selected>JavaScript</option>
+				<option value="PHP">PHP</option>
+			</select>
+			<p>Фото:</p>
+			<input type="file" name="photo"/><br/>
+			<input type="submit" value="Сохранить" style="margin-top: 10px;"/>
+		</form>
+	</body>
+</html>
